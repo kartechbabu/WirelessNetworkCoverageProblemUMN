@@ -1,0 +1,301 @@
+graph: {	
+colorentry 42: 104 192 226	
+color: 42	
+scaling: 1.0	
+amax: 0	
+xbase: 5	
+ybase: 5	
+xspace: 20	
+xlspace: 10	
+yspace: 70	
+xraster: 1	
+xlraster: 1	
+yraster: 1	
+layout_downfactor: 1	
+fstraight_phase: no		
+layout_upfactor: 1		
+layout_nearfactor: 1	
+layout_splinefactor: 70		
+spreadlevel: 1				
+treefactor: 0.500000	
+bmax: 100							
+cmin: 0								
+cmax: 32000						
+pmin: 0								
+pmax: 100							
+rmin: 0								
+rmax: 100							
+smax: 100							
+orientation: top_to_bottom	
+late_edge_labels: no	
+display_edge_labels: no			
+dirty_edge_labels: no	
+finetuning: yes				
+nearedges: yes				
+splines: no						
+ignoresingles: no			
+straight_phase: no		
+priority_phase: no		
+manhatten_edges: no		
+smanhatten_edges: no	
+port_sharing: yes			
+crossingphase2: no		
+crossingoptimization: yes	
+crossingweight: bary	
+arrow_mode: free			
+edge.arrowsize: 8			
+node.height: 34				
+node.width: 34				
+node.textcolor: white	
+node.color: black			
+node: { title:"C0" label: "C0"loc: { x: 173 y: 562 }}
+node: { title:"C1" label: "C1"loc: { x: 728 y: 108 }}
+node: { title:"C2" label: "C2"loc: { x: 367 y: 693 }}
+node: { title:"C3" label: "C3"loc: { x: 888 y: 752 }}
+node: { title:"C4" label: "C4"loc: { x: 692 y: 72 }}
+node: { title:"C5" label: "C5"loc: { x: 495 y: 816 }}
+node: { title:"C6" label: "C6"loc: { x: 181 y: 15 }}
+node: { title:"C7" label: "C7"loc: { x: 272 y: 494 }}
+node: { title:"C8" label: "C8"loc: { x: 849 y: 938 }}
+node: { title:"C9" label: "C9"loc: { x: 334 y: 923 }}
+node: { title:"C10" label: "C10"loc: { x: 624 y: 602 }}
+node: { title:"C11" label: "C11"loc: { x: 101 y: 377 }}
+node: { title:"C12" label: "C12"loc: { x: 394 y: 361 }}
+node: { title:"C13" label: "C13"loc: { x: 349 y: 331 }}
+node: { title:"C14" label: "C14"loc: { x: 632 y: 237 }}
+node: { title:"C15" label: "C15"loc: { x: 228 y: 932 }}
+node: { title:"C16" label: "C16"loc: { x: 891 y: 232 }}
+node: { title:"C17" label: "C17"loc: { x: 681 y: 201 }}
+node: { title:"C18" label: "C18"loc: { x: 739 y: 49 }}
+node: { title:"C19" label: "C19"loc: { x: 362 y: 856 }}
+node: { title:"C20" label: "C20"loc: { x: 983 y: 921 }}
+node: { title:"C21" label: "C21"loc: { x: 265 y: 337 }}
+node: { title:"C22" label: "C22"loc: { x: 855 y: 378 }}
+node: { title:"C23" label: "C23"loc: { x: 764 y: 95 }}
+node: { title:"C24" label: "C24"loc: { x: 459 y: 109 }}
+node: { title:"C25" label: "C25"loc: { x: 710 y: 672 }}
+node: { title:"C26" label: "C26"loc: { x: 665 y: 631 }}
+node: { title:"C27" label: "C27"loc: { x: 811 y: 241 }}
+node: { title:"C28" label: "C28"loc: { x: 671 y: 495 }}
+node: { title:"C29" label: "C29"loc: { x: 427 y: 166 }}
+node: { title:"C30" label: "C30"loc: { x: 954 y: 839 }}
+node: { title:"C31" label: "C31"loc: { x: 389 y: 835 }}
+node: { title:"C32" label: "C32"loc: { x: 88 y: 574 }}
+node: { title:"C33" label: "C33"loc: { x: 550 y: 844 }}
+node: { title:"C34" label: "C34"loc: { x: 160 y: 893 }}
+node: { title:"C35" label: "C35"loc: { x: 730 y: 753 }}
+node: { title:"C36" label: "C36"loc: { x: 478 y: 224 }}
+node: { title:"C37" label: "C37"loc: { x: 213 y: 952 }}
+node: { title:"C38" label: "C38"loc: { x: 937 y: 469 }}
+node: { title:"C39" label: "C39"loc: { x: 566 y: 153 }}
+node: { title:"C40" label: "C40"loc: { x: 690 y: 853 }}
+node: { title:"C41" label: "C41"loc: { x: 904 y: 465 }}
+node: { title:"C42" label: "C42"loc: { x: 282 y: 389 }}
+node: { title:"C43" label: "C43"loc: { x: 543 y: 55 }}
+node: { title:"C44" label: "C44"loc: { x: 144 y: 107 }}
+node: { title:"C45" label: "C45"loc: { x: 650 y: 894 }}
+node: { title:"C46" label: "C46"loc: { x: 888 y: 469 }}
+node: { title:"C47" label: "C47"loc: { x: 126 y: 230 }}
+node: { title:"C48" label: "C48"loc: { x: 442 y: 41 }}
+node: { title:"C49" label: "C49"loc: { x: 123 y: 903 }}
+node: { title:"C50" label: "C50"loc: { x: 441 y: 294 }}
+node: { title:"C51" label: "C51"loc: { x: 529 y: 306 }}
+node: { title:"C52" label: "C52"loc: { x: 419 y: 856 }}
+node: { title:"C53" label: "C53"loc: { x: 768 y: 199 }}
+node: { title:"C54" label: "C54"loc: { x: 348 y: 421 }}
+node: { title:"C55" label: "C55"loc: { x: 697 y: 615 }}
+node: { title:"C56" label: "C56"loc: { x: 351 y: 319 }}
+node: { title:"C57" label: "C57"loc: { x: 516 y: 59 }}
+node: { title:"C58" label: "C58"loc: { x: 950 y: 919 }}
+node: { title:"C59" label: "C59"loc: { x: 709 y: 858 }}
+node: { title:"C60" label: "C60"loc: { x: 131 y: 509 }}
+node: { title:"C61" label: "C61"loc: { x: 720 y: 257 }}
+node: { title:"C62" label: "C62"loc: { x: 452 y: 435 }}
+node: { title:"C63" label: "C63"loc: { x: 224 y: 172 }}
+node: { title:"C64" label: "C64"loc: { x: 804 y: 356 }}
+node: { title:"C65" label: "C65"loc: { x: 184 y: 737 }}
+node: { title:"C66" label: "C66"loc: { x: 121 y: 145 }}
+node: { title:"C67" label: "C67"loc: { x: 456 y: 74 }}
+node: { title:"C68" label: "C68"loc: { x: 502 y: 584 }}
+node: { title:"C69" label: "C69"loc: { x: 949 y: 223 }}
+node: { title:"C70" label: "C70"loc: { x: 438 y: 623 }}
+node: { title:"C71" label: "C71"loc: { x: 346 y: 286 }}
+node: { title:"C72" label: "C72"loc: { x: 976 y: 141 }}
+node: { title:"C73" label: "C73"loc: { x: 174 y: 631 }}
+node: { title:"C74" label: "C74"loc: { x: 16 y: 691 }}
+node: { title:"C75" label: "C75"loc: { x: 5 y: 270 }}
+node: { title:"C76" label: "C76"loc: { x: 236 y: 767 }}
+node: { title:"C77" label: "C77"loc: { x: 718 y: 703 }}
+node: { title:"C78" label: "C78"loc: { x: 173 y: 384 }}
+node: { title:"C79" label: "C79"loc: { x: 849 y: 345 }}
+node: { title:"C80" label: "C80"loc: { x: 353 y: 183 }}
+node: { title:"C81" label: "C81"loc: { x: 250 y: 125 }}
+node: { title:"C82" label: "C82"loc: { x: 982 y: 73 }}
+node: { title:"C83" label: "C83"loc: { x: 269 y: 65 }}
+node: { title:"C84" label: "C84"loc: { x: 343 y: 374 }}
+node: { title:"C85" label: "C85"loc: { x: 885 y: 319 }}
+node: { title:"C86" label: "C86"loc: { x: 902 y: 17 }}
+node: { title:"C87" label: "C87"loc: { x: 852 y: 861 }}
+node: { title:"C88" label: "C88"loc: { x: 272 y: 953 }}
+node: { title:"C89" label: "C89"loc: { x: 538 y: 748 }}
+node: { title:"C90" label: "C90"loc: { x: 261 y: 840 }}
+node: { title:"C91" label: "C91"loc: { x: 322 y: 459 }}
+node: { title:"C92" label: "C92"loc: { x: 3 y: 0 }}
+node: { title:"C93" label: "C93"loc: { x: 487 y: 995 }}
+node: { title:"C94" label: "C94"loc: { x: 162 y: 382 }}
+node: { title:"C95" label: "C95"loc: { x: 804 y: 437 }}
+node: { title:"C96" label: "C96"loc: { x: 240 y: 574 }}
+node: { title:"C97" label: "C97"loc: { x: 338 y: 119 }}
+node: { title:"C98" label: "C98"loc: { x: 721 y: 328 }}
+node: { title:"C99" label: "C99"loc: { x: 433 y: 115 }}
+node: { title:"C100" label: "C100"loc: { x: 868 y: 221 }}
+node: { title:"C101" label: "C101"loc: { x: 92 y: 268 }}
+node: { title:"C102" label: "C102"loc: { x: 430 y: 165 }}
+node: { title:"C103" label: "C103"loc: { x: 947 y: 777 }}
+node: { title:"C104" label: "C104"loc: { x: 764 y: 718 }}
+node: { title:"C105" label: "C105"loc: { x: 216 y: 178 }}
+node: { title:"C106" label: "C106"loc: { x: 221 y: 467 }}
+node: { title:"C107" label: "C107"loc: { x: 541 y: 916 }}
+node: { title:"C108" label: "C108"loc: { x: 942 y: 675 }}
+node: { title:"C109" label: "C109"loc: { x: 787 y: 863 }}
+node: { title:"C110" label: "C110"loc: { x: 352 y: 941 }}
+node: { title:"C111" label: "C111"loc: { x: 631 y: 228 }}
+node: { title:"C112" label: "C112"loc: { x: 505 y: 663 }}
+node: { title:"C113" label: "C113"loc: { x: 226 y: 634 }}
+node: { title:"C114" label: "C114"loc: { x: 587 y: 686 }}
+node: { title:"C115" label: "C115"loc: { x: 913 y: 495 }}
+node: { title:"C116" label: "C116"loc: { x: 188 y: 820 }}
+node: { title:"C117" label: "C117"loc: { x: 531 y: 82 }}
+node: { title:"C118" label: "C118"loc: { x: 618 y: 855 }}
+node: { title:"C119" label: "C119"loc: { x: 918 y: 86 }}
+node: { title:"C120" label: "C120"loc: { x: 58 y: 812 }}
+node: { title:"C121" label: "C121"loc: { x: 208 y: 298 }}
+node: { title:"C122" label: "C122"loc: { x: 29 y: 863 }}
+node: { title:"C123" label: "C123"loc: { x: 805 y: 12 }}
+node: { title:"C124" label: "C124"loc: { x: 68 y: 674 }}
+node: { title:"C125" label: "C125"loc: { x: 893 y: 86 }}
+node: { title:"C126" label: "C126"loc: { x: 740 y: 747 }}
+node: { title:"C127" label: "C127"loc: { x: 201 y: 373 }}
+node: { title:"C128" label: "C128"loc: { x: 32 y: 272 }}
+node: { title:"C129" label: "C129"loc: { x: 736 y: 347 }}
+node: { title:"C130" label: "C130"loc: { x: 547 y: 91 }}
+node: { title:"C131" label: "C131"loc: { x: 859 y: 677 }}
+node: { title:"C132" label: "C132"loc: { x: 660 y: 404 }}
+node: { title:"C133" label: "C133"loc: { x: 970 y: 922 }}
+node: { title:"C134" label: "C134"loc: { x: 437 y: 677 }}
+node: { title:"C135" label: "C135"loc: { x: 110 y: 930 }}
+node: { title:"C136" label: "C136"loc: { x: 606 y: 113 }}
+node: { title:"C137" label: "C137"loc: { x: 970 y: 265 }}
+node: { title:"C138" label: "C138"loc: { x: 200 y: 884 }}
+node: { title:"C139" label: "C139"loc: { x: 27 y: 132 }}
+node: { title:"C140" label: "C140"loc: { x: 631 y: 953 }}
+node: { title:"C141" label: "C141"loc: { x: 897 y: 240 }}
+node: { title:"C142" label: "C142"loc: { x: 138 y: 822 }}
+node: { title:"C143" label: "C143"loc: { x: 636 y: 511 }}
+node: { title:"C144" label: "C144"loc: { x: 159 y: 127 }}
+node: { title:"C145" label: "C145"loc: { x: 112 y: 695 }}
+node: { title:"C146" label: "C146"loc: { x: 418 y: 240 }}
+node: { title:"C147" label: "C147"loc: { x: 975 y: 127 }}
+node: { title:"C148" label: "C148"loc: { x: 205 y: 94 }}
+node: { title:"C149" label: "C149"loc: { x: 328 y: 763 }}
+node: { title:"C150" label: "C150"loc: { x: 663 y: 921 }}
+node: { title:"C151" label: "C151"loc: { x: 984 y: 936 }}
+node: { title:"C152" label: "C152"loc: { x: 42 y: 939 }}
+node: { title:"C153" label: "C153"loc: { x: 189 y: 500 }}
+node: { title:"C154" label: "C154"loc: { x: 608 y: 379 }}
+node: { title:"C155" label: "C155"loc: { x: 736 y: 521 }}
+node: { title:"C156" label: "C156"loc: { x: 112 y: 609 }}
+node: { title:"C157" label: "C157"loc: { x: 235 y: 852 }}
+node: { title:"C158" label: "C158"loc: { x: 673 y: 618 }}
+node: { title:"C159" label: "C159"loc: { x: 702 y: 532 }}
+node: { title:"C160" label: "C160"loc: { x: 198 y: 875 }}
+node: { title:"C161" label: "C161"loc: { x: 594 y: 673 }}
+node: { title:"C162" label: "C162"loc: { x: 13 y: 189 }}
+node: { title:"C163" label: "C163"loc: { x: 945 y: 670 }}
+node: { title:"C164" label: "C164"loc: { x: 70 y: 30 }}
+node: { title:"C165" label: "C165"loc: { x: 76 y: 699 }}
+node: { title:"C166" label: "C166"loc: { x: 275 y: 648 }}
+node: { title:"C167" label: "C167"loc: { x: 396 y: 110 }}
+node: { title:"C168" label: "C168"loc: { x: 841 y: 287 }}
+node: { title:"C169" label: "C169"loc: { x: 5 y: 286 }}
+node: { title:"C170" label: "C170"loc: { x: 148 y: 18 }}
+node: { title:"C171" label: "C171"loc: { x: 809 y: 627 }}
+node: { title:"C172" label: "C172"loc: { x: 928 y: 237 }}
+node: { title:"C173" label: "C173"loc: { x: 101 y: 744 }}
+node: { title:"C174" label: "C174"loc: { x: 226 y: 786 }}
+node: { title:"C175" label: "C175"loc: { x: 182 y: 535 }}
+node: { title:"C176" label: "C176"loc: { x: 24 y: 297 }}
+node: { title:"C177" label: "C177"loc: { x: 687 y: 964 }}
+node: { title:"C178" label: "C178"loc: { x: 646 y: 336 }}
+node: { title:"C179" label: "C179"loc: { x: 539 y: 932 }}
+node: { title:"C180" label: "C180"loc: { x: 98 y: 901 }}
+node: { title:"C181" label: "C181"loc: { x: 495 y: 322 }}
+node: { title:"C182" label: "C182"loc: { x: 230 y: 718 }}
+node: { title:"C183" label: "C183"loc: { x: 712 y: 485 }}
+node: { title:"C184" label: "C184"loc: { x: 681 y: 997 }}
+node: { title:"C185" label: "C185"loc: { x: 751 y: 929 }}
+node: { title:"C186" label: "C186"loc: { x: 391 y: 915 }}
+node: { title:"C187" label: "C187"loc: { x: 350 y: 663 }}
+node: { title:"C188" label: "C188"loc: { x: 850 y: 296 }}
+node: { title:"C189" label: "C189"loc: { x: 986 y: 49 }}
+node: { title:"C190" label: "C190"loc: { x: 542 y: 608 }}
+node: { title:"C191" label: "C191"loc: { x: 130 y: 138 }}
+node: { title:"C192" label: "C192"loc: { x: 932 y: 174 }}
+node: { title:"C193" label: "C193"loc: { x: 203 y: 953 }}
+node: { title:"C194" label: "C194"loc: { x: 417 y: 678 }}
+node: { title:"C195" label: "C195"loc: { x: 398 y: 355 }}
+node: { title:"C196" label: "C196"loc: { x: 606 y: 7 }}
+node: { title:"C197" label: "C197"loc: { x: 535 y: 219 }}
+node: { title:"C198" label: "C198"loc: { x: 626 y: 893 }}
+node: { title:"C199" label: "C199"loc: { x: 276 y: 265 }}
+edge: { sourcename: "C77"  targetname: "C160"}
+edge: { sourcename: "C151"  targetname: "C35"}
+edge: { sourcename: "C48"  targetname: "C114"}
+edge: { sourcename: "C80"  targetname: "C177"}
+edge: { sourcename: "C73"  targetname: "C102"}
+edge: { sourcename: "C152"  targetname: "C138"}
+edge: { sourcename: "C183"  targetname: "C172"}
+edge: { sourcename: "C106"  targetname: "C148"}
+edge: { sourcename: "C59"  targetname: "C97"}
+edge: { sourcename: "C157"  targetname: "C2"}
+edge: { sourcename: "C18"  targetname: "C163"}
+edge: { sourcename: "C41"  targetname: "C83"}
+edge: { sourcename: "C122"  targetname: "C189"}
+edge: { sourcename: "C34"  targetname: "C42"}
+edge: { sourcename: "C134"  targetname: "C155"}
+edge: { sourcename: "C51"  targetname: "C192"}
+edge: { sourcename: "C186"  targetname: "C94"}
+edge: { sourcename: "C57"  targetname: "C169"}
+edge: { sourcename: "C137"  targetname: "C53"}
+edge: { sourcename: "C120"  targetname: "C38"}
+edge: { sourcename: "C175"  targetname: "C143"}
+edge: { sourcename: "C33"  targetname: "C81"}
+edge: { sourcename: "C117"  targetname: "C115"}
+edge: { sourcename: "C29"  targetname: "C38"}
+edge: { sourcename: "C79"  targetname: "C117"}
+edge: { sourcename: "C9"  targetname: "C82"}
+edge: { sourcename: "C44"  targetname: "C99"}
+edge: { sourcename: "C1"  targetname: "C84"}
+edge: { sourcename: "C174"  targetname: "C57"}
+edge: { sourcename: "C177"  targetname: "C78"}
+edge: { sourcename: "C176"  targetname: "C27"}
+edge: { sourcename: "C56"  targetname: "C35"}
+edge: { sourcename: "C126"  targetname: "C9"}
+edge: { sourcename: "C105"  targetname: "C102"}
+edge: { sourcename: "C54"  targetname: "C190"}
+edge: { sourcename: "C119"  targetname: "C20"}
+edge: { sourcename: "C18"  targetname: "C39"}
+edge: { sourcename: "C192"  targetname: "C135"}
+edge: { sourcename: "C119"  targetname: "C141"}
+edge: { sourcename: "C81"  targetname: "C37"}
+edge: { sourcename: "C14"  targetname: "C177"}
+edge: { sourcename: "C65"  targetname: "C55"}
+edge: { sourcename: "C178"  targetname: "C24"}
+edge: { sourcename: "C136"  targetname: "C151"}
+edge: { sourcename: "C167"  targetname: "C48"}
+edge: { sourcename: "C64"  targetname: "C35"}
+edge: { sourcename: "C198"  targetname: "C129"}
+edge: { sourcename: "C118"  targetname: "C155"}
+edge: { sourcename: "C124"  targetname: "C193"}
+edge: { sourcename: "C88"  targetname: "C181"}
+}

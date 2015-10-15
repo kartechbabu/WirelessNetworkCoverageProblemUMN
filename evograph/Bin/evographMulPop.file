@@ -1,0 +1,109 @@
+#*********************************************************************
+# input parameter file for graph evolution
+# Jianjun Hu (hujianju@cse.msu.edu)
+# Computer Science Department
+# Michigan State University
+# East Lansing, MI 48823
+
+# app-specific parameters
+app.clientGraphFile=client.txt
+app.watchInterval=1
+app.maxServiceRadius=100
+output.basename = BestGraph
+
+
+max_generations =3000
+pop_size = 100 		#if subpops is not specified size, then use this default one
+random_seed = 777 	#we can set the random_seed if you want to repeat your result
+
+
+# how to generate the initial population
+#init.method = grow
+#init.method = full
+
+init.method = half_and_half
+init.depth = 3-6
+max_nodes = 200 # limits on treesize.
+max_depth = 17 # limits on treesize.
+
+
+
+## breeding parameters (emulates Koza Ch. 7)
+breed_phases = 2
+breed[1].operator = crossover, select=(tournament, size=7)
+breed[1].rate = 0.9
+breed[2].operator = mutation, select=(tournament, size=5)
+breed[2].rate = 0.1
+#breed[3].operator = reproduction, select = fitness
+#breed[3].rate = 0.1
+
+
+
+#*******************************************************************
+#	multiple subpopulation GP
+
+multiple.subpops = 5	  #how many subpopulations
+multiple.exch_gen = 1    # exchange every 30 generations
+multiple.exchanges = 5
+
+subpop[1].fitness = 1 #use structure fitness
+subpop[2].fitness = 0 #use parameter fitness
+
+#different sub population size, unspecified subpop, will use default pop_size specified above by
+#subpop[1].pop_size = 200
+#replace selecton method for each subpopulation when importing new candidates
+#default =  select worst
+
+subpop[1].replace_select = worst;
+
+
+
+#*******************************************************************
+# 	Use island subpopulation exchange method
+
+exch[1].from = 1
+exch[1].fromselect = best
+exch[1].to = 2
+exch[1].toselect = worst
+exch[1].count = 20
+
+exch[2].from = 2
+exch[2].fromselect = best
+exch[2].to = 3
+exch[2].toselect = worst
+exch[2].count = 20
+
+exch[3].from = 3
+exch[3].fromselect = best
+exch[3].to = 4
+exch[3].toselect = worst
+exch[3].count = 20
+
+exch[4].from = 4
+exch[4].fromselect = best
+exch[4].to = 5
+exch[4].toselect = worst
+exch[4].count = 20
+
+exch[5].from = 5
+exch[5].fromselect = best
+exch[5].to = 1
+exch[5].toselect = worst
+exch[5].count = 20
+
+output.bestn =5;
+
+
+
+#backup options
+#breed[1].operator = crossover, select = random
+#breed[1].operator = crossover, select=fitness
+#breed[1].operator = crossover, select=best
+#breed[1].operator = crossover, select=tournament
+#breed[1].operator = crossover, select=fitness_overselect
+#breed[2].operator = reproduction, select = random
+#breed[2].operator = mutation, select = fitness, method = grow, depth = 4 
+#breed[2].operator = reproduction, select = fitness
+#breed[2].operator = mutation, select=fitness_overselect
+#breed[2].operator = mutation, select=fitness_overselect
+

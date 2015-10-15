@@ -1,0 +1,311 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="File-List" href="WiressAccessPoint_files/filelist.xml">
+
+<title>Introduction</title>
+<base target="_self">
+<style>
+<!--
+h2
+	{margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal; margin-left:0in; margin-right:0in; margin-top:0in}
+h1
+	{margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in}
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	margin-left:0in; margin-right:0in; margin-top:0in}
+h3
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:Arial}
+h4
+	{margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	text-decoration:underline;
+	text-underline:single; margin-left:0in; margin-right:0in; margin-top:0in}
+-->
+</style>
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+</head>
+
+<body background="whitem.jpg">
+
+<p class="MsoBodyText" align="center"><b><font color="#008000" size="6">&nbsp;</font></b><font size="6"><b><font color="#008000">Wireless 
+Access Point Configuration</font></b><font color="#008000"><b> Problem</b></font></font></p>
+
+<p class="MsoBodyText" align="center"><font color="#008000" size="4"><b>A 
+benchmark problem for topology synthesis</b></font><b><span style="font-size: 14.0pt">&nbsp;</span></b></p>
+
+<p class="MsoBodyText" align="center">Jianjun 
+Hu&nbsp; (hujianju@msu.edu)</p>
+<p class="MsoBodyText">&nbsp;Proposal of a GP benchmark problem for open-ended 
+simultaneous topology and parameter search</p>
+<p class="MsoNormal"><b><span style="font-size: 14.0pt">&nbsp;</span></b><span style="font-weight:normal">Wireless 
+Access Point Configuration problem is proposed as a benchmark problem for testing 
+our Genetic Programming algorithm in simultaneous open-ended structure and 
+parameter evolution (search)</span>&nbsp;</p>
+<h1 style="text-indent: -9.0pt; margin-left: 9.0pt">I.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Introduction to Wireless Access Point Configuration problem:&nbsp;</h1>
+<p><font face="Times New Roman" style="font-size: 13pt">A small city is planning 
+to provide wireless Internet service to its citizens, which are located around 
+the city map below (labeled as circled C). A bunch of wireless access points 
+then need to be placed at several places to cover all the clients since each 
+access point has limited service radius. To reduce the cost, a design solution 
+with minimal number of access points and minimum length of the wires connecting 
+those access points&nbsp; is regarded as optimal. <b><u>So the question is, how 
+to decide the number of necessary access points and which place should we put</u>.</b>&nbsp; 
+To make it harder, we can ask to maximize the average signal strength at all 
+clients, or add some constraints on the location of the access points. As this 
+problem (not the <a href="#Simplied WAPC">simplified version</a>) requires 
+simultaneous topology and parameter search, many issues exist.</font></p>
+<p class="MsoNormal"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1056" type="#_x0000_t75" alt="" style='position:absolute;
+ margin-left:-11.25pt;margin-top:3pt;width:463.5pt;height:319.5pt;z-index:1'
+ stroked="t">
+ <v:imagedata src="WiressAccessPoint_files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:-5px;top:479px;width:621px;height:429px'><img
+width=621 height=429 src="WiressAccessPoint_files/image002.gif" v:shapes="_x0000_s1056"></span><![endif]><br clear="ALL">
+&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b><span style="font-size: 14.0pt">&nbsp;</span></b>What is 
+structure to be evolved?</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Every 
+wireless access point must be either directly 
+linked to the source radio station or linked to another access point which has 
+been linked to the radio station (directly or indirectly) by wires whose cost is 
+proportionate to its length. All the connected graph is the structure to be 
+evolved</p>
+<p class="MsoNormal">What are the parameters to be evolved?</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The locations of 
+access points are the 
+parameters to be evolved. Their range can be constrained in a range, e.g.&nbsp; (x,y)|x,y<sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1045" type="#_x0000_t75" style='width:9.75pt;height:9.75pt'>
+ <v:imagedata src="WiressAccessPoint_files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=13 height=13
+src="WiressAccessPoint_files/image004.gif" v:shapes="_x0000_s1045"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1026" DrawAspect="Content" ObjectID="_1126734123">
+ </o:OLEObject>
+</xml><![endif]-->[0, 1000]</p>
+<p class="MsoNormal">&nbsp;</p>
+<h1 style="text-indent: -9.0pt; margin-left: 9.0pt">II.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Problem statement:</h1>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Given a set of clients and the position of the 
+source internet connection outlet, find a best configuration of the access 
+points such 
+that:</p>
+<ol style="margin-top: 0in; margin-bottom: 0in" start="1" type="1">
+  <li class="MsoNormal">Each client is within the signal transmission radius
+  <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1046" type="#_x0000_t75" style='width:20.25pt;height:18.75pt'>
+ <v:imagedata src="WiressAccessPoint_files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=27 height=25
+src="WiressAccessPoint_files/image006.gif" v:shapes="_x0000_s1046"><![endif]></sub><!--[if gte mso 9]><xml>
+      <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1027" DrawAspect="Content" ObjectID="_1126734124">
+      </o:OLEObject>
+     </xml><![endif]-->of at least one access point. (fully covered).</li>
+  <li class="MsoNormal">using theleast number of access points. Each access 
+  point has some cost. </li>
+</ol>
+<p class="MsoNormal" style="margin-left:.5in"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1047" type="#_x0000_t75" style='width:99.75pt;height:18.75pt'>
+ <v:imagedata src="WiressAccessPoint_files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=133 height=25
+src="WiressAccessPoint_files/image008.gif" v:shapes="_x0000_s1047"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1028" DrawAspect="Content" ObjectID="_1126734125">
+ </o:OLEObject>
+</xml><![endif]-->where&nbsp; <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1048" type="#_x0000_t75" style='width:17.25pt;height:18pt'>
+ <v:imagedata src="WiressAccessPoint_files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=23 height=24
+src="WiressAccessPoint_files/image010.gif" v:shapes="_x0000_s1048"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1029" DrawAspect="Content" ObjectID="_1126734126">
+ </o:OLEObject>
+</xml><![endif]-->is the cost of each access point, <sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1049" type="#_x0000_t75" style='width:18.75pt;height:18pt'>
+ <v:imagedata src="WiressAccessPoint_files/image011.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=25 height=24
+src="WiressAccessPoint_files/image012.gif" v:shapes="_x0000_s1049"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1030" DrawAspect="Content" ObjectID="_1126734127">
+ </o:OLEObject>
+</xml><![endif]-->is the number of access point.</p>
+<ol style="margin-top: 0in; margin-bottom: 0in" start="3" type="1">
+  <li class="MsoNormal">Minimize the cost of the wires used to connect the 
+  access points. The cost is proportionate to the length of the distance between 
+  two connected access points. <font color="#0000FF"><a name="Simplied WAPC">
+  </a>To make things easy, we only need to evolve the location points and use 
+  Minimum Spanning Tree algorithm to find the topology or connections</font>. To 
+  test the GP synthesis engine, we ask the GP evolve the Minimum Spanning Tree 
+  topology.&nbsp; </li>
+</ol>
+<p>&nbsp;</p>
+<ol style="margin-top: 0in; margin-bottom: 0in" start="3" type="1">
+  <li class="MsoNormal">Maximize the average signal intensity of all client 
+  sites. (optional)</li>
+</ol>
+<p class="MsoNormal" style="margin-left:1.0in"><sub><!--[if gte vml 1]><v:shape
+ id="_x0000_s1050" type="#_x0000_t75" style='width:135pt;height:44.25pt'>
+ <v:imagedata src="WiressAccessPoint_files/image013.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=180 height=59
+src="WiressAccessPoint_files/image014.gif" v:shapes="_x0000_s1050"><![endif]></sub><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="Equation.DSMT4" ShapeID="_x0000_i1031" DrawAspect="Content" ObjectID="_1126734128">
+ </o:OLEObject>
+</xml><![endif]--></p>
+<ol style="margin-top: 0in; margin-bottom: 0in" start="4" type="1">
+  <li class="MsoNormal">The coordinates of sources, access points and clients 
+  are integers. </li>
+</ol>
+<p class="MsoNormal">&nbsp;</p>
+<h1 style="text-indent: -9.0pt; margin-left: 9.0pt">III.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Varying the difficulty of this problem:</h1>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">1)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Increase the number of client sites.</p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">2)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Constrain the possible position area of access points or add other 
+constrains</p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">3)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Allow multiple radio station sources. </p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">4)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Allow several existing access points.</p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">5)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Include multiple objective</p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">6)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Assume the cost of access points with different construction costs</p>
+<p class="MsoNormal" style="text-indent: -.25in; margin-left: .75in">7)<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Similar problems including water system, etc.</p>
+<p class="MsoNormal">&nbsp;</p>
+<h1 style="text-indent: -9.0pt; margin-left: 9.0pt">IV.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Network encoding in Genetic Programming</h1>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Edge-encoding&nbsp;&nbsp; (Sean Luke).</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cellular Encoding/node encoding (Gruau)</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hybrid encoding (koza, 
+this package)</p>
+<p class="MsoNormal">&nbsp;</p>
+<h1 style="text-indent: -9.0pt; margin-left: 9.0pt">V.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>Open Question:</h1>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Is this problem a NP problem?</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; How is it related to TSP?&nbsp; Can it be a TSP in 
+GP?</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Are there some existing similar problems in 
+graph theory literature?</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<h4>Fitness Definition</h4>
+<p class="MsoNormal"><b><u><span style="text-decoration:none">&nbsp;</span></u></b></p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //numer of covered clients</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double nCoveredClients = g-&gt;pClientGraph-&gt;getNumVertices()-ncoveredClients;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //penalty of the total length of edges</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double wireCost = &nbsp;g-&gt;getSumWeight();</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(wireCost==0) wireCost=1.0;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+//cost of building each access point</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double stationCost = g-&gt;getNumVertices();</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double coverFit = 20.0*(double)nCoveredClients/g-&gt;pClientGraph</p>
+<p class="MsoNormal" style="margin-left:1.0in;text-indent:.5in">-&gt;getNumVertices();</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double wireFit = 1000.0/(1000.0+wireCost);</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; double stationFit = 10.0/(10+stationCost);</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //cout&lt;&lt;coverFit&lt;&lt;&quot;&nbsp; &quot;&lt;&lt;wireFit&lt;&lt;&quot;&nbsp; &quot;&lt;&lt;stationFit&lt;&lt;endl;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //total fitness value</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; finalfitness= coverFit+wireFit+stationFit;</p>
+<p class="MsoNormal">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //penalty if not connected</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if(!g-&gt;isConnected()) finalfitness=finalfitness/2 
+;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ind-&gt;hits = 0;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ind-&gt;r_fitness = 0;</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ind-&gt;s_fitness = nCoveredClients;//The 
+objective raw fitness of an inidividual</p>
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ind-&gt;a_fitness = finalfitness; //used for 
+selection process</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><b>Some running results</b></p>
+<p class="MsoNormal"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1051" type="#_x0000_t75" style='width:198pt;height:194.25pt'
+ o:bordertopcolor="this" o:borderleftcolor="this" o:borderbottomcolor="this"
+ o:borderrightcolor="this">
+ <v:imagedata src="WiressAccessPoint_files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=264 height=259
+src="WiressAccessPoint_files/image016.jpg" v:shapes="_x0000_s1051"><![endif]></p>
+<p class="MsoHeader"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1052" type="#_x0000_t75" style='width:251.25pt;height:262.5pt'
+ o:bordertopcolor="this" o:borderleftcolor="this" o:borderbottomcolor="this"
+ o:borderrightcolor="this">
+ <v:imagedata src="WiressAccessPoint_files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=335 height=350
+src="WiressAccessPoint_files/image018.jpg" v:shapes="_x0000_s1052"><![endif]></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1053" type="#_x0000_t75" style='width:279.75pt;height:293.25pt'>
+ <v:imagedata src="WiressAccessPoint_files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=373 height=391
+src="WiressAccessPoint_files/image020.jpg" v:shapes="_x0000_s1053"><![endif]></p>
+<p class="MsoNormal"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1054" type="#_x0000_t75" style='width:315.75pt;height:338.25pt'
+ o:bordertopcolor="this" o:borderleftcolor="this" o:borderbottomcolor="this"
+ o:borderrightcolor="this">
+ <v:imagedata src="WiressAccessPoint_files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=421 height=451
+src="WiressAccessPoint_files/image022.jpg" v:shapes="_x0000_s1054"><![endif]></p>
+
+</body>
+
+</html>

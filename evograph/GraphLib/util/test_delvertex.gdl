@@ -1,0 +1,66 @@
+graph: {	
+colorentry 42: 104 192 226	
+color: 42	
+scaling: 1.0	
+amax: 0	
+xbase: 5	
+ybase: 5	
+xspace: 20	
+xlspace: 10	
+yspace: 70	
+xraster: 1	
+xlraster: 1	
+yraster: 1	
+layout_downfactor: 1	
+fstraight_phase: no		
+layout_upfactor: 1		
+layout_nearfactor: 1	
+layout_splinefactor: 70		
+spreadlevel: 1				
+treefactor: 0.500000	
+bmax: 100							
+cmin: 0								
+cmax: 32000						
+pmin: 0								
+pmax: 100							
+rmin: 0								
+rmax: 100							
+smax: 100							
+orientation: top_to_bottom	
+late_edge_labels: no	
+display_edge_labels: no			
+dirty_edge_labels: no	
+finetuning: yes				
+nearedges: yes				
+splines: no						
+ignoresingles: no			
+straight_phase: no		
+priority_phase: no		
+manhatten_edges: no		
+smanhatten_edges: no	
+port_sharing: yes			
+crossingphase2: no		
+crossingoptimization: yes	
+crossingweight: bary	
+arrow_mode: free			
+edge.arrowsize: 8			
+node.height: 34				
+node.width: 34				
+node.textcolor: white	
+node.color: black			
+node: { title:"a" label: "a"loc: { x: 100 y: 5000 }}
+node: { title:"b" label: "b"loc: { x: 1500 y: 20000 }}
+node: { title:"c" label: "c"loc: { x: 1450 y: 12950 }}
+node: { title:"d" label: "d"loc: { x: 4450 y: 17150 }}
+node: { title:"e" label: "e"loc: { x: 20000 y: 20000 }}
+node: { title:"f" label: "f"}
+edge: { sourcename: "a"  targetname: "f"}
+edge: { sourcename: "c"  targetname: "e"}
+edge: { sourcename: "a"  targetname: "d"}
+edge: { sourcename: "b"  targetname: "e"}
+edge: { sourcename: "b"  targetname: "c"}
+edge: { sourcename: "a"  targetname: "e"}
+edge: { sourcename: "d"  targetname: "e"}
+edge: { sourcename: "c"  targetname: "d"}
+edge: { sourcename: "f"  targetname: "b"}
+}

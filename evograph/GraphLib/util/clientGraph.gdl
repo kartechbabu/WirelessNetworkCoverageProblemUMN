@@ -1,0 +1,62 @@
+graph: {	
+colorentry 42: 104 192 226	
+color: 42	
+scaling: 1.0	
+amax: 0	
+xbase: 5	
+ybase: 5	
+xspace: 20	
+xlspace: 10	
+yspace: 70	
+xraster: 1	
+xlraster: 1	
+yraster: 1	
+layout_downfactor: 1	
+fstraight_phase: no		
+layout_upfactor: 1		
+layout_nearfactor: 1	
+layout_splinefactor: 70		
+spreadlevel: 1				
+treefactor: 0.500000	
+bmax: 100							
+cmin: 0								
+cmax: 32000						
+pmin: 0								
+pmax: 100							
+rmin: 0								
+rmax: 100							
+smax: 100							
+orientation: top_to_bottom	
+late_edge_labels: no	
+display_edge_labels: no			
+dirty_edge_labels: no	
+finetuning: yes				
+nearedges: yes				
+splines: no						
+ignoresingles: no			
+straight_phase: no		
+priority_phase: no		
+manhatten_edges: no		
+smanhatten_edges: no	
+port_sharing: yes			
+crossingphase2: no		
+crossingoptimization: yes	
+crossingweight: bary	
+arrow_mode: free			
+edge.arrowsize: 8			
+node.height: 34				
+node.width: 34				
+node.textcolor: white	
+node.color: black			
+node: { title:"C0" label: "C0"loc: { x: 289 y: 466 }}
+node: { title:"C1" label: "C1"loc: { x: 363 y: 785 }}
+node: { title:"C2" label: "C2"loc: { x: 623 y: 910 }}
+node: { title:"C3" label: "C3"loc: { x: 76 y: 624 }}
+node: { title:"C4" label: "C4"loc: { x: 867 y: 2 }}
+node: { title:"C5" label: "C5"loc: { x: 702 y: 615 }}
+node: { title:"C6" label: "C6"loc: { x: 225 y: 91 }}
+node: { title:"C7" label: "C7"loc: { x: 346 y: 398 }}
+node: { title:"C8" label: "C8"loc: { x: 453 y: 775 }}
+node: { title:"C9" label: "C9"loc: { x: 650 y: 47 }}
+edge: { sourcename: "C4"  targetname: "C3"}
+}

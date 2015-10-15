@@ -1,0 +1,46 @@
+LEDA.GRAPH
+void
+void
+10
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+|{}|
+1
+5 4 0 |{}|
+# version string
+GraphWin 1.320000
+# scaling  wxmin  wymin  wxmax  wymax
+1 0 0 1000 1000 
+# node label font and size
+0 12
+# edge label font and size
+0 12
+# node index format
+%d
+# edge index format
+%d
+# multi-edge distance
+5
+# node infos
+# x y shape bclr bwidth r1 r2 clr ltype lclr lpos lstr
+289 466 0 1 0.5 12 12 16 1 -1 4 C0
+363 785 0 1 0.5 12 12 16 1 -1 4 C1
+623 910 0 1 0.5 12 12 16 1 -1 4 C2
+76 624 0 1 0.5 12 12 16 1 -1 4 C3
+867 2 0 1 0.5 12 12 16 1 -1 4 C4
+702 615 0 1 0.5 12 12 16 1 -1 4 C5
+225 91 0 1 0.5 12 12 16 1 -1 4 C6
+346 398 0 1 0.5 12 12 16 1 -1 4 C7
+453 775 0 1 0.5 12 12 16 1 -1 4 C8
+650 47 0 1 0.5 12 12 16 1 -1 4 C9
+# 
+# edge infos
+# width clr shape style dir ltype lclr lpos sanch tanch poly lstr
+0.5 1 0 0 1 1 1 4 (0,0) (0,0) 2 (867,2) (76,624)
